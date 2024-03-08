@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon CV</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Mon CSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="body">
+        <header class="bg-dark text-light py-4">
+            <div class="container d-flex align-items-center"> <!-- Utilisez flexbox pour aligner les éléments -->
+                <a href="index.php" class="text-light text-decoration-none">
+                    <img src="image/back_arrow_40px.png" alt="Retour à l'accueil" class="arrow-back align-middle mb-0 ml-2 arrow-opacity"> <!-- Ajoutez les classes ml-2 (pour la marge à gauche) et arrow-opacity pour le changement d'opacité -->
+                </a>
+                <h1 class="display-4 d-inline-block">Mon CV</h1>
+            </div>
+        </header>
+
+        <div class="content bg-custom-dark py-4">
+            <div class="container mt-4">
+                <!-- Contenu de la page -->
+            </div>
+        </div>
+
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0">colson.florian51@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

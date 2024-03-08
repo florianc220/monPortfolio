@@ -1,0 +1,68 @@
+.bg-custom-dark {
+    background-color: #343a40; /* Définissez la couleur de fond sombre personnalisée selon vos préférences */
+}
+.arrow-back {
+    width: 40px; /* Définissez la largeur de la flèche */
+    height: auto; /* Ajustez automatiquement la hauteur en fonction de la largeur */
+    margin-right: 10px; /* Espacement entre la flèche et le titre */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Ajoutez une ombre portée à la flèche */
+    transition: box-shadow 0.3s ease; /* Ajoutez une transition pour l'effet de survol */
+}
+
+.arrow-back:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5); /* Augmentez l'ombre portée au survol */
+}
+
+.header-title {
+    display: inline-block; /* Gardez le titre sur la même ligne que la flèche */
+    vertical-align: middle; /* Alignez verticalement le titre avec la flèche */
+}
+.card {
+    height: 200px; /* Hauteur des cartes */
+    transition: transform 0.3s ease; /* Transition sur la propriété transform */
+}
+.card-body {
+    padding: 20px; /* Ajustement des marges intérieures de la card-body */
+}
+.card:hover {
+    transform: scale(1.05); /* Agrandissement de 5% au survol */
+    filter: brightness(85%); /* Assombrit l'élément lorsqu'il est survolé */
+}
+.card-link {
+    text-decoration: none; /* Retire le soulignement des liens */
+}
+.content {
+    min-height: calc(100vh - 140px); /* Réglage de la hauteur en utilisant la hauteur de la fenêtre moins la hauteur du header et du footer */
+    padding-bottom: 20px; /* Ajout d'un petit espacement en bas de la div content */
+}
+.footer {
+    background-color: #343a40; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    text-align: center; /* Alignement du texte au centre */
+    padding: 20px 0; /* Espacement intérieur du footer */
+}
+.footer-year {
+    float: right; /* Alignement du texte à droite */
+}
+@media (max-width: 991.98px) {
+    .card:not(:last-child) {
+        margin-bottom: 20px; /* Espacement entre les cartes sur les écrans de taille moyenne et plus petits */
+    }
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
